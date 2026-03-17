@@ -36,7 +36,7 @@ public class UseClobs {
 	  // the string starts.
       long startInClob2 = clob2.position(outString, 440);
 
-      System.out.println("pattern found starting at position " + startInClob2);
+      System.out.println("pattern found starting at position teste " + startInClob2);
 
       c.close(); // Connection close also closes stmt and rs.
    }
